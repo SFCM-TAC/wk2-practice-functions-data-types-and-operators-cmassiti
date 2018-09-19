@@ -117,3 +117,10 @@ function showCounter(increment) {
   // updates the counter element with the latest value
   document.getElementById('counter').textContent = counter;
 }
+
+function changeElement(id) {
+  var el = document.getElementById(id);
+  el.style.color = "red";
+  el.style.fontSize = "15px";
+  el.style.backgroundColor = "#FFFFFF";
+}
